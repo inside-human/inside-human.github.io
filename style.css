@@ -1,0 +1,18 @@
+:root{--ink:#101114;--paper:#EDE6D6;--red:#FF3B1F;--graphite:#8C887C;--slate:#2A2B30}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ink);color:var(--paper);font:17px/1.65 "IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
+header,main,footer{max-width:760px;margin:0 auto;padding:0 20px}
+header{padding-top:36px;display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--slate);padding-bottom:20px}
+.logo{width:14px;height:14px;border-radius:50%;background:var(--red);flex:none}
+.brand{font:800 26px/1 "Big Shoulders Display","Arial Narrow",Impact,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--paper);text-decoration:none}
+nav{margin-left:auto;font-size:14px}
+nav a{color:var(--graphite);margin-left:16px;text-decoration:none}
+nav a:hover{color:var(--paper)}
+h1{font:800 44px/1.05 "Big Shoulders Display","Arial Narrow",Impact,sans-serif;text-transform:uppercase;margin:40px 0 8px}
+h2{font:800 22px/1.2 "Big Shoulders Display","Arial Narrow",Impact,sans-serif;text-transform:uppercase;letter-spacing:.04em;margin:32px 0 6px;color:var(--paper)}
+h2::before{content:"";display:inline-block;width:8px;height:8px;background:var(--red);margin-right:10px}
+p,li{color:#d8d1c0}
+a{color:var(--red)}
+.small{color:var(--graphite);font-size:14px}
+footer{padding:28px 20px 48px;margin-top:48px;border-top:1px solid var(--slate);color:var(--graphite);font-size:14px}
+@media(max-width:520px){h1{font-size:34px}}
